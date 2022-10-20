@@ -37,13 +37,11 @@ input {
 }
 
 .left {
-    /* border: 1px solid black; */
     width: 41%;
     height: 87.1%;
 }
 
 .bill {
-    /* border: 1px solid black; */
     width: 100%;
 }
 
@@ -89,7 +87,6 @@ input {
     display: flex;
     flex-direction: column;
     line-height: 2.8em;
-    /* border: 1px solid red; */
     justify-content: space-between;
 }
 
