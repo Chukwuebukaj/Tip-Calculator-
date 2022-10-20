@@ -167,9 +167,14 @@ input:focus {
     color: hsl(186, 14%, 43%);
 }
 
-#people-input {
+.people {
     height: 41px;
     width: 100%;
+}
+
+#people-input {
+    width: 100%;
+    height: 100%;
     text-align: right;
     background: url(images/icon-person.svg);
     background-repeat: no-repeat;
@@ -250,14 +255,14 @@ input:focus {
 .reset {
     border-radius: 5px;
     height: 6rem;
-    width: 70%;
+    width: 80%;
     display: flex;
     align-items: center;
 }
 
 .reset button {
     width: 100%;
-    height: 60%;
+    height: 50%;
     background: #0D686D;
     border: none;
     border-radius: 5px;
